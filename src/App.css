@@ -1,6 +1,7 @@
 body {
   text-align: center;
   line-height: 1.5;
+  color: #333;
 }
 
 .App {
@@ -28,14 +29,18 @@ body {
 
 #img-caption {
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 10px;
 }
 
 #img-div {
   background-color: white;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
 }
 
 ul {
@@ -71,6 +76,7 @@ h3 {
 
 .App-header {
   background-color: #eee;
+  border-radius: 5px;
 }
 
 .App-link {

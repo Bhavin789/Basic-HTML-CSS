@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <div id="main">
-      <header className="App-header">
+      <div className="App-header">
         <h1 id="title">Dr. Norman Borlaug</h1>
         <p>The man who saved a billion lives</p>
 
@@ -80,7 +80,7 @@ function App() {
             </a>
           </h3>
         </section>
-      </header>
+      </div>
     </div>
   );
 }
