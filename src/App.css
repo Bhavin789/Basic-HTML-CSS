@@ -1,3 +1,8 @@
+body {
+  text-align: center;
+  line-height: 1.5;
+}
+
 .App {
   text-align: center;
 }
@@ -13,15 +18,70 @@
   }
 }
 
+#main {
+  margin: 20px 10px 20px 10px;
+}
+
+#title {
+  color: #333;
+  text-align: center;
+}
+
+#headline {
+  text-align: center;
+}
+
+#tribute-info {
+  text-align: left;
+  margin: 0 auto;
+  width: 50%;
+}
+
+#img-caption {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#img-div {
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+ul {
+  margin-top: 50px;
+}
+
+li {
+  margin: 16px 0;
+}
+
+p {
+  color: #333;
+  text-align: center;
+}
+
+p.prime-minister {
+  text-align: left;
+}
+
+h3 {
+  width: 100%;
+  padding: 20px 0;
+}
+
+#tribute-link {
+  text-align: center;
+  color: #74638f;
+}
+
+#testimonial {
+  margin-top: 50px;
+}
+
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #eee;
 }
 
 .App-link {
