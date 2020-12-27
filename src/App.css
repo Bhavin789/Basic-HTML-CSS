@@ -51,6 +51,8 @@ h1 {
 
 ul {
   margin-top: 50px;
+  max-width: 550px;
+  margin: 0 auto;
 }
 
 li {
@@ -73,12 +75,17 @@ h3 {
 }
 
 #tribute-link {
-  /* text-align: center; */
   color: #74638f;
 }
 
 #testimonial {
   margin-top: 50px;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+p.prime-minister-testimonial {
+  text-align: left;
 }
 
 .App-header {
