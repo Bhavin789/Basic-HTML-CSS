@@ -11,17 +11,24 @@ const SurveyFormPage = () => {
         </p>
 
         <form id="survey-form">
-          <span>Name</span>
-          <input placeholder="Enter your Name" required></input>
+          <span id="name-label">Name</span>
+          <input placeholder="Enter your Name" required id="name" />
 
-          <span>Email</span>
-          <input placeholder="Enter your Email" required></input>
+          <span id="email-label">Email</span>
+          <input placeholder="Enter your Email" required id="email" />
 
-          <span>Age (optional)</span>
-          <input placeholder="Enter your Age" required></input>
+          <span id="number-label">Age (optional)</span>
+          <input
+            placeholder="Enter your Age"
+            required
+            id="number"
+            type="number"
+            min={0}
+            max={100}
+          />
 
           <span>Which option best describes your current role?</span>
-          <select>
+          <select id="dropdown">
             <option>Select your role</option>
             <option>Student</option>
             <option>Full time Job</option>
@@ -31,20 +38,19 @@ const SurveyFormPage = () => {
           </select>
 
           <span>Would you recommend freeCodeCamp to a friend?</span>
-          {/* <input type="radio"></input> */}
 
-          <label>
-            <input type="radio" name="indoor-outdoor" />
+          <label htmlFor="definitely">
+            <input type="radio" name="recommend" checked />
             Definitely
           </label>
 
-          <label>
-            <input type="radio" name="indoor-outdoor" />
+          <label htmlFor="definitely">
+            <input type="radio" name="recommend" />
             Maybe
           </label>
 
-          <label>
-            <input type="radio" name="indoor-outdoor" />
+          <label htmlFor="definitely">
+            <input type="radio" name="recommend" />
             Not Sure
           </label>
 
@@ -61,37 +67,68 @@ const SurveyFormPage = () => {
           <span>
             What would you like to see improved? (Check all that apply)
           </span>
-          {/* <input type="radio"></input> */}
 
           <label htmlFor="front-end">
-            <input id="front-end" type="checkbox" name="personality" />{" "}
+            <input
+              id="front-end"
+              value="front-end"
+              type="checkbox"
+              name="improvements"
+            />{" "}
             Front-end Projects
           </label>
 
           <label htmlFor="back-end">
-            <input id="back-end" type="checkbox" name="personality" /> Back-end
-            Projects
+            <input
+              id="back-end"
+              value="back-end"
+              type="checkbox"
+              name="improvements"
+            />{" "}
+            Back-end Projects
           </label>
 
           <label htmlFor="data-visualisation">
-            <input id="data-visualisation" type="checkbox" name="personality" />
+            <input
+              id="data-visualisation"
+              value="back-end"
+              type="checkbox"
+              name="improvements"
+            />
             Data Visualization
           </label>
 
           <label htmlFor="challenges">
-            <input id="challenges" type="checkbox" name="personality" />{" "}
+            <input
+              id="challenges"
+              value="challenges"
+              type="checkbox"
+              name="improvements"
+            />{" "}
             Challenges
           </label>
 
           <label htmlFor="wiki">
-            <input id="wiki" type="checkbox" name="personality" /> Wiki
+            <input id="wiki" value="wiki" type="checkbox" name="improvements" />{" "}
+            Wiki
           </label>
           <label htmlFor="forum">
-            <input id="forum" type="checkbox" name="personality" /> Forum
+            <input
+              id="forum"
+              value="forum"
+              type="checkbox"
+              name="improvements"
+            />{" "}
+            Forum
           </label>
 
           <span>Any comments or suggestions?</span>
-          <input type="textarea" required></input>
+          <textarea
+            id="comments"
+            name="comments"
+            placeholder="Enter your comments here..."
+            required
+          ></textarea>
           <button type="submit">Submit</button>
         </form>
       </div>
