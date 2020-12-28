@@ -1,0 +1,101 @@
+body {
+  text-align: center;
+  line-height: 1.5;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+#main {
+  margin: 20px 10px 20px 10px;
+}
+
+h1 {
+  font-size: 4;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5;
+  }
+}
+
+#headline {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#tribute-info {
+  text-align: left;
+  padding: 15px;
+}
+
+#img-caption {
+  text-align: center;
+  padding: 10px 10px;
+}
+
+#img-div {
+  background-color: white;
+  margin: 0 10px;
+  padding: 10px;
+  display: block;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+ul {
+  margin-top: 50px;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+li {
+  margin: 16px 0;
+}
+
+p {
+  color: #333;
+  text-align: center;
+}
+
+p.prime-minister {
+  text-align: left;
+}
+
+h3 {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#tribute-link {
+  color: #74638f;
+}
+
+#testimonial {
+  margin-top: 50px;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+p.prime-minister-testimonial {
+  text-align: left;
+}
+
+.App-header {
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.App-link {
+  color: #61dafb;
+}
