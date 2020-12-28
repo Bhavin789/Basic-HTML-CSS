@@ -33,6 +33,21 @@ const SurveyFormPage = () => {
           <span>Would you recommend freeCodeCamp to a friend?</span>
           {/* <input type="radio"></input> */}
 
+          <label>
+            <input type="radio" name="indoor-outdoor" />
+            Definitely
+          </label>
+
+          <label>
+            <input type="radio" name="indoor-outdoor" />
+            Maybe
+          </label>
+
+          <label>
+            <input type="radio" name="indoor-outdoor" />
+            Not Sure
+          </label>
+
           <span>What is your favorite feature of freeCodeCamp?</span>
           <select>
             <option>Select an option</option>
@@ -47,6 +62,33 @@ const SurveyFormPage = () => {
             What would you like to see improved? (Check all that apply)
           </span>
           {/* <input type="radio"></input> */}
+
+          <label htmlFor="front-end">
+            <input id="front-end" type="checkbox" name="personality" />{" "}
+            Front-end Projects
+          </label>
+
+          <label htmlFor="back-end">
+            <input id="back-end" type="checkbox" name="personality" /> Back-end
+            Projects
+          </label>
+
+          <label htmlFor="data-visualisation">
+            <input id="data-visualisation" type="checkbox" name="personality" />
+            Data Visualization
+          </label>
+
+          <label htmlFor="challenges">
+            <input id="challenges" type="checkbox" name="personality" />{" "}
+            Challenges
+          </label>
+
+          <label htmlFor="wiki">
+            <input id="wiki" type="checkbox" name="personality" /> Wiki
+          </label>
+          <label htmlFor="forum">
+            <input id="forum" type="checkbox" name="personality" /> Forum
+          </label>
 
           <span>Any comments or suggestions?</span>
           <input type="textarea" required></input>
