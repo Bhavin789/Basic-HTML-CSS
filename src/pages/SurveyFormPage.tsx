@@ -13,13 +13,18 @@ const SurveyFormPage = () => {
         </div>
 
         <form id="survey-form">
-          <span id="name-label">Name</span>
+          <label id="name-label">Name</label>
           <input placeholder="Enter your Name" required id="name" />
 
-          <span id="email-label">Email</span>
-          <input placeholder="Enter your Email" required id="email" />
+          <label id="email-label">Email</label>
+          <input
+            placeholder="Enter your Email"
+            required
+            id="email"
+            type="email"
+          />
 
-          <span id="number-label">Age (optional)</span>
+          <label id="number-label">Age (optional)</label>
           <input
             placeholder="Enter your Age"
             required
@@ -29,7 +34,7 @@ const SurveyFormPage = () => {
             max={100}
           />
 
-          <span>Which option best describes your current role?</span>
+          <label>Which option best describes your current role?</label>
           <select id="dropdown">
             <option>Select your role</option>
             <option>Student</option>
@@ -39,24 +44,35 @@ const SurveyFormPage = () => {
             <option>Other</option>
           </select>
 
-          <span>Would you recommend freeCodeCamp to a friend?</span>
+          <label>Would you recommend freeCodeCamp to a friend?</label>
 
           <label htmlFor="definitely">
-            <input type="radio" name="recommend" checked />
+            <input
+              type="radio"
+              id="definitely"
+              name="recommend"
+              value="definitely"
+              checked
+            />
             Definitely
           </label>
 
-          <label htmlFor="definitely">
-            <input type="radio" name="recommend" />
+          <label htmlFor="maybe">
+            <input type="radio" id="maybe" name="recommend" value="maybe" />
             Maybe
           </label>
 
-          <label htmlFor="definitely">
-            <input type="radio" name="recommend" />
+          <label htmlFor="not-sure">
+            <input
+              type="radio"
+              id="not-sure"
+              name="recommend"
+              value="not-sure"
+            />
             Not Sure
           </label>
 
-          <span>What is your favorite feature of freeCodeCamp?</span>
+          <label>What is your favorite feature of freeCodeCamp?</label>
           <select>
             <option>Select an option</option>
             <option>Challenges</option>
@@ -66,9 +82,9 @@ const SurveyFormPage = () => {
             <option>Other</option>
           </select>
 
-          <span>
+          <label>
             What would you like to see improved? (Check all that apply)
-          </span>
+          </label>
 
           <label htmlFor="front-end">
             <input
@@ -124,14 +140,16 @@ const SurveyFormPage = () => {
             Forum
           </label>
 
-          <span>Any comments or suggestions?</span>
+          <label>Any comments or suggestions?</label>
           <textarea
             id="comments"
             name="comments"
             placeholder="Enter your comments here..."
             required
           ></textarea>
-          <button type="submit">Submit</button>
+          <button type="submit" id="submit">
+            Submit
+          </button>
         </form>
       </div>
     </div>
