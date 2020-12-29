@@ -4,9 +4,9 @@ import "../App.css";
 const TributePage = () => {
   return (
     <div id="main">
-      <div className="App-header">
+      <div className="App-header tribute">
         <h1 id="title">Dr. Norman Borlaug</h1>
-        <p>The man who saved a billion lives</p>
+        <p className="tribute">The man who saved a billion lives</p>
 
         <div id="img-div">
           <img
@@ -56,7 +56,7 @@ const TributePage = () => {
             </li>
           </ul>
           <div id="testimonial">
-            <p className="prime-minister-testimonial">
+            <p className="prime-minister-testimonial tribute">
               <i>
                 "Borlaug's life and achievement are testimony to the
                 far-reaching contribution that one man's towering intellect,
@@ -65,7 +65,7 @@ const TributePage = () => {
               </i>
             </p>
 
-            <p className="prime-minister">
+            <p className="prime-minister tribute">
               <i>-- Indian Prime Minister Manmohan Singh</i>
             </p>
           </div>

@@ -3,7 +3,7 @@ import "../css/survey.css";
 
 const SurveyFormPage = () => {
   return (
-    <div id="main">
+    <div id="main" className="survey">
       <div className="App-header">
         <div>
           <h1 id="title">freeCodeCamp Survey Form</h1>

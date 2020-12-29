@@ -62,7 +62,7 @@ li {
   margin: 16px 0;
 }
 
-p {
+p.tribute {
   color: #333;
   text-align: center;
 }
@@ -91,7 +91,7 @@ p.prime-minister-testimonial {
   text-align: left;
 }
 
-.App-header {
+.App-header.tribute {
   background-color: #eee;
   border-radius: 5px;
 }

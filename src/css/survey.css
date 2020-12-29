@@ -1,4 +1,4 @@
-body {
+#main.survey {
   text-align: center;
   line-height: 1.5;
   font-size: 1.2em;
@@ -43,16 +43,6 @@ h1 {
   h1 {
     font-size: 3.5;
   }
-}
-
-ul {
-  margin-top: 50px;
-  max-width: 550px;
-  margin: 0 auto;
-}
-
-li {
-  margin: 16px 0;
 }
 
 h3 {
