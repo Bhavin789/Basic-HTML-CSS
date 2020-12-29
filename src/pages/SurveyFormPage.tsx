@@ -14,10 +14,16 @@ const SurveyFormPage = () => {
 
         <form id="survey-form">
           <label id="name-label">Name</label>
-          <input placeholder="Enter your Name" required id="name" />
+          <input
+            className="form-control"
+            placeholder="Enter your Name"
+            required
+            id="name"
+          />
 
           <label id="email-label">Email</label>
           <input
+            className="form-control"
             placeholder="Enter your Email"
             required
             id="email"
@@ -26,6 +32,7 @@ const SurveyFormPage = () => {
 
           <label id="number-label">Age (optional)</label>
           <input
+            className="form-control"
             placeholder="Enter your Age"
             required
             id="number"
@@ -34,8 +41,10 @@ const SurveyFormPage = () => {
             max={99}
           />
 
-          <label>Which option best describes your current role?</label>
-          <select id="dropdown">
+          <label className="form-label">
+            Which option best describes your current role?
+          </label>
+          <select className="form-control" id="dropdown">
             <option>Select your role</option>
             <option>Student</option>
             <option>Full time Job</option>
@@ -44,7 +53,9 @@ const SurveyFormPage = () => {
             <option>Other</option>
           </select>
 
-          <label>Would you recommend freeCodeCamp to a friend?</label>
+          <label className="form-label">
+            Would you recommend freeCodeCamp to a friend?
+          </label>
 
           <label htmlFor="definitely">
             <input
@@ -72,8 +83,10 @@ const SurveyFormPage = () => {
             Not Sure
           </label>
 
-          <label>What is your favorite feature of freeCodeCamp?</label>
-          <select>
+          <label className="form-label">
+            What is your favorite feature of freeCodeCamp?
+          </label>
+          <select className="form-control">
             <option>Select an option</option>
             <option>Challenges</option>
             <option>Projects</option>
@@ -82,7 +95,7 @@ const SurveyFormPage = () => {
             <option>Other</option>
           </select>
 
-          <label>
+          <label className="form-label">
             What would you like to see improved? (Check all that apply)
           </label>
 
@@ -112,7 +125,7 @@ const SurveyFormPage = () => {
               value="back-end"
               type="checkbox"
               name="improvements"
-            />
+            />{" "}
             Data Visualization
           </label>
 
@@ -140,8 +153,9 @@ const SurveyFormPage = () => {
             Forum
           </label>
 
-          <label>Any comments or suggestions?</label>
+          <label className="form-label">Any comments or suggestions?</label>
           <textarea
+            className="form-control"
             id="comments"
             name="comments"
             placeholder="Enter your comments here..."
