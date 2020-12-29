@@ -19,7 +19,7 @@
   max-width: 550px;
   margin: 0 auto;
   background-color: rgba(27, 27, 50, 0.8);
-  padding: 20px;
+  padding: 30px;
   opacity: 0.9;
 }
 
@@ -29,6 +29,29 @@
 
 #number-label {
   margin-top: 20px;
+}
+
+#submit {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #37af65;
+  color: aliceblue;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: rgb(21, 156, 73);
+  cursor: pointer;
+}
+
+input {
+  height: 2em;
+}
+
+select {
+  height: 2em;
 }
 
 .App {
@@ -53,8 +76,4 @@ h3 {
 
 .App-header {
   background-color: transparent;
-}
-
-.App-link {
-  color: #61dafb;
 }

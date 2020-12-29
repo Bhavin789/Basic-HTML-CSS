@@ -30,8 +30,8 @@ const SurveyFormPage = () => {
             required
             id="number"
             type="number"
-            min={0}
-            max={100}
+            min={10}
+            max={99}
           />
 
           <label>Which option best describes your current role?</label>
