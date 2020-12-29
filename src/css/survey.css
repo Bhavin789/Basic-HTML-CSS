@@ -4,6 +4,18 @@ body {
   color: #333;
 }
 
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+span {
+  margin-top: 20px;
+}
+
 .App {
   text-align: center;
 }
