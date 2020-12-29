@@ -1,7 +1,13 @@
 body {
   text-align: center;
   line-height: 1.5;
-  color: #333;
+  color: white;
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
 }
 
 #survey-form {
@@ -10,6 +16,9 @@ body {
   text-align: left;
   max-width: 550px;
   margin: 0 auto;
+  background-color: rgba(27, 27, 50, 0.8);
+  padding: 20px;
+  opacity: 1;
 }
 
 span {
@@ -18,10 +27,6 @@ span {
 
 .App {
   text-align: center;
-}
-
-#main {
-  margin: 20px 10px 20px 10px;
 }
 
 h1 {
@@ -34,36 +39,6 @@ h1 {
   }
 }
 
-#headline {
-  text-align: center;
-  width: 80%;
-  margin: 0 auto;
-}
-
-#tribute-info {
-  text-align: left;
-  padding: 15px;
-}
-
-#img-caption {
-  text-align: center;
-  padding: 10px 10px;
-}
-
-#img-div {
-  background-color: white;
-  margin: 0 10px;
-  padding: 10px;
-  display: block;
-}
-
-#image {
-  max-width: 100%;
-  height: auto;
-  margin: auto;
-  display: block;
-}
-
 ul {
   margin-top: 50px;
   max-width: 550px;
@@ -74,38 +49,15 @@ li {
   margin: 16px 0;
 }
 
-p {
-  color: #333;
-  text-align: center;
-}
-
-p.prime-minister {
-  text-align: left;
-}
-
 h3 {
   width: 100%;
   padding: 20px 0;
   text-align: center;
 }
 
-#tribute-link {
-  color: #74638f;
-}
-
-#testimonial {
-  margin-top: 50px;
-  max-width: 550px;
-  margin: 0 auto;
-}
-
-p.prime-minister-testimonial {
-  text-align: left;
-}
-
 .App-header {
-  background-color: #eee;
-  border-radius: 5px;
+  opacity: 0.5;
+  background-color: transparent;
 }
 
 .App-link {

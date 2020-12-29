@@ -5,10 +5,12 @@ const SurveyFormPage = () => {
   return (
     <div id="main">
       <div className="App-header">
-        <h1 id="title">freeCodeCamp Survey Form</h1>
-        <p id="description">
-          Thank you for taking the time to help us improve the platform
-        </p>
+        <div>
+          <h1 id="title">freeCodeCamp Survey Form</h1>
+          <p id="description">
+            Thank you for taking the time to help us improve the platform
+          </p>
+        </div>
 
         <form id="survey-form">
           <span id="name-label">Name</span>
