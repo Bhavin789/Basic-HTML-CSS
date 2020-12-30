@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+
 #main.survey {
   text-align: center;
+  font-family: "Poppins", sans-serif;
   line-height: 1.5;
   font-size: 1.2em;
   color: white;
-  /* position: fixed; */
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
