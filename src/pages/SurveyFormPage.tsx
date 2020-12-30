@@ -155,7 +155,7 @@ const SurveyFormPage = () => {
 
           <label className="form-label">Any comments or suggestions?</label>
           <textarea
-            className="form-control"
+            className="form-control form-textarea"
             id="comments"
             name="comments"
             placeholder="Enter your comments here..."
