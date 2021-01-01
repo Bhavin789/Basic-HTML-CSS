@@ -15,6 +15,27 @@ const DocumentationPage = () => {
         <a href="#What_you_should_already_know" className="nav-link">
           What you should already know
         </a>
+        <a href="#Hello_World" className="nav-link">
+          Hello World
+        </a>
+        <a href="#Variables" className="nav-link">
+          Variables
+        </a>
+        <a href="#" className="nav-link">
+          JS Documentation
+        </a>
+        <a href="#" className="nav-link">
+          JS Documentation
+        </a>
+        <a href="#" className="nav-link">
+          JS Documentation
+        </a>
+        <a href="#" className="nav-link">
+          JS Documentation
+        </a>
+        <a href="#" className="nav-link">
+          JS Documentation
+        </a>
         <a href="#" className="nav-link">
           JS Documentation
         </a>
@@ -26,7 +47,7 @@ const DocumentationPage = () => {
         </a>
       </nav>
       <div className="content">
-        <Section headerTitle="Introduction" id="Introduction">
+        <Section headerTitle="Introduction">
           <p className="doc">
             JavaScript is a cross-platform, object-oriented scripting language.
             It is a small and lightweight language. Inside a host environment
@@ -60,10 +81,7 @@ const DocumentationPage = () => {
           </ul>
         </Section>
 
-        <Section
-          headerTitle={"What you should already know"}
-          id="What_you_should_already_know"
-        >
+        <Section headerTitle={"What you should already know"}>
           <p className="doc">
             This guide assumes you have the following basic background:
           </p>
@@ -80,6 +98,40 @@ const DocumentationPage = () => {
               one of the tutorials linked on the main page about JavaScript.
             </li>
           </ul>
+        </Section>
+
+        <Section headerTitle={"Hello world"}>
+          <p className="doc">
+            To get started with writing JavaScript, open the Scratchpad and
+            write your first "Hello world" JavaScript code:
+          </p>
+
+          <code>Hi</code>
+          <p className="doc">
+            Select the code in the pad and hit Ctrl+R to watch it unfold in your
+            browser!
+          </p>
+        </Section>
+
+        <Section headerTitle={"Variables"}>
+          <p className="doc">
+            You use variables as symbolic names for values in your application.
+            The names of variables, called identifiers, conform to certain
+            rules.
+          </p>
+          <p className="doc">
+            A JavaScript identifier must start with a letter, underscore (_), or
+            dollar sign ($); subsequent characters can also be digits (0-9).
+            Because JavaScript is case sensitive, letters include the characters
+            "A" through "Z" (uppercase) and the characters "a" through "z"
+            (lowercase).
+          </p>
+          <p className="doc">
+            You can use ISO 8859-1 or Unicode letters such as å and ü in
+            identifiers. You can also use the Unicode escape sequences as
+            characters in identifiers. Some examples of legal names are
+            Number_hits, temp99, and _name.
+          </p>
         </Section>
       </div>
     </div>

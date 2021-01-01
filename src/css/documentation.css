@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
 
-#main-doc {
-  display: grid;
-  grid-template-columns: 20% 80%;
-}
-
 #navbar {
   display: flex;
   flex-direction: column;
   padding: 0px 5px;
+  max-height: 100vh;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%;
 }
 
 .nav-link.header {
@@ -23,6 +24,8 @@
 
 .content {
   padding: 30px;
+  width: 70%;
+  margin-left: 300px;
 }
 
 .header {
