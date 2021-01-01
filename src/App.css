@@ -49,13 +49,13 @@ h1 {
   display: block;
 }
 
-ul {
+ul.tribute {
   margin-top: 50px;
   max-width: 550px;
   margin: 0 auto;
 }
 
-li {
+li.tribute {
   margin: 16px 0;
 }
 

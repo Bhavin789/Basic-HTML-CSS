@@ -23,35 +23,35 @@ const TributePage = () => {
 
         <section id="tribute-info">
           <h3 id="headline">Here's a time line of Dr. Borlaug's life:</h3>
-          <ul id="list">
-            <li>
+          <ul id="list" className="tribute">
+            <li className="tribute">
               <b>1914</b> - Born in Cresco, Iowa
             </li>
-            <li>
+            <li className="tribute">
               <b>1914</b> - Leaves his family's farm to attend the University of
               Minnesota, thanks to a Depression era program known as the
               "National Youth Administration"
             </li>
-            <li>
+            <li className="tribute">
               <b>1914</b> - Has to stop school and save up more money. Works in
               the Civilian Conservation Corps, helping starving Americans. "I
               saw how food changed them", he said. "All of this left scars on
               me."
             </li>
-            <li>
+            <li className="tribute">
               <b>1914</b> - Finishes university and takes a job in the US
               Forestry Service
             </li>
-            <li>
+            <li className="tribute">
               <b>1914</b> - Born in Cresco, Iowa
             </li>
-            <li>
+            <li className="tribute">
               <b>1914</b> - Born in Cresco, Iowa
             </li>
-            <li>
+            <li className="tribute">
               <b>1914</b> - Born in Cresco, Iowa
             </li>
-            <li>
+            <li className="tribute">
               <b>1914</b> - Born in Cresco, Iowa
             </li>
           </ul>

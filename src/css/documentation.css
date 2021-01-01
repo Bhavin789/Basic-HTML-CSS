@@ -31,8 +31,10 @@
 
 p.doc {
   color: #807171;
+  margin-left: 1em;
 }
 
 li.doc {
   color: #807171;
+  margin: 1em 2em 1em 2em;
 }

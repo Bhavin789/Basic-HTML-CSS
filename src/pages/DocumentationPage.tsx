@@ -1,4 +1,7 @@
 import React from "react";
+
+import Section from "../components/Section";
+
 import "../css/documentation.css";
 
 const DocumentationPage = () => {
@@ -9,8 +12,8 @@ const DocumentationPage = () => {
         <a href="#Introduction" className="nav-link">
           Introduction
         </a>
-        <a href="#" className="nav-link">
-          JS Documentation
+        <a href="#What_you_should_already_know" className="nav-link">
+          What you should already know
         </a>
         <a href="#" className="nav-link">
           JS Documentation
@@ -23,8 +26,7 @@ const DocumentationPage = () => {
         </a>
       </nav>
       <div className="content">
-        <section id="Introduction" className="main-section">
-          <header className="header">Introduction</header>
+        <Section headerTitle="Introduction" id="Introduction">
           <p className="doc">
             JavaScript is a cross-platform, object-oriented scripting language.
             It is a small and lightweight language. Inside a host environment
@@ -56,7 +58,29 @@ const DocumentationPage = () => {
               server.
             </li>
           </ul>
-        </section>
+        </Section>
+
+        <Section
+          headerTitle={"What you should already know"}
+          id="What_you_should_already_know"
+        >
+          <p className="doc">
+            This guide assumes you have the following basic background:
+          </p>
+          <ul>
+            <li className="doc">
+              A general understanding of the Internet and the World Wide Web
+              (WWW).
+            </li>
+            <li className="doc">
+              Good working knowledge of HyperText Markup Language (HTML).
+            </li>
+            <li className="doc">
+              Some programming experience. If you are new to programming, try
+              one of the tutorials linked on the main page about JavaScript.
+            </li>
+          </ul>
+        </Section>
       </div>
     </div>
   );
