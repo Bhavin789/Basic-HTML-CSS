@@ -1,14 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
 
-#main.documentation {
+#main-doc {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 20% 80%;
 }
 
-.nav {
-  background-color: red;
+#navbar {
   display: flex;
   flex-direction: column;
+  padding: 0px 5px;
+}
+
+.nav-link.header {
+  font-size: 1.5em;
+  border-bottom: 1px solid rgba(0, 22, 22, 0.4);
+}
+
+.nav-link {
+  padding: 1em 0;
+  border-bottom: 1px solid rgba(0, 22, 22, 0.4);
 }
 
 .content {
