@@ -22,5 +22,17 @@
 }
 
 .content {
-  background-color: blue;
+  padding: 30px;
+}
+
+.header {
+  font-size: 1.8em;
+}
+
+p.doc {
+  color: #807171;
+}
+
+li.doc {
+  color: #807171;
 }
