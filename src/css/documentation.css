@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   padding: 0px 5px;
-  max-height: 100vh;
+  height: 100%;
   overflow-y: auto;
   position: fixed;
   top: 0;
@@ -12,16 +12,26 @@
   width: 20%;
 }
 
+#navbar li {
+  padding: 20px;
+  list-style: none;
+  border-bottom: 1px solid rgba(0, 22, 22, 0.4);
+}
+
+#navbar ul {
+  max-height: 88%;
+  margin-top: 2em;
+}
+
 .nav-link.header {
   font-size: 1.5em;
   border-bottom: 1px solid rgba(0, 22, 22, 0.4);
   position: fixed;
 }
-
+/* 
 .nav-link {
   padding: 1em 0;
-  border-bottom: 1px solid rgba(0, 22, 22, 0.4);
-}
+} */
 
 .content {
   padding: 30px;

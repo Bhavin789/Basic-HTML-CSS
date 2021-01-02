@@ -9,42 +9,68 @@ const DocumentationPage = () => {
     <div id="main-doc">
       <nav id="navbar">
         <header className="nav-link header">JS Documentation</header>
-        <a href="#Introduction" className="nav-link">
-          Introduction
-        </a>
-        <a href="#What_you_should_already_know" className="nav-link">
-          What you should already know
-        </a>
-        <a href="#Hello_World" className="nav-link">
-          Hello World
-        </a>
-        <a href="#Variables" className="nav-link">
-          Variables
-        </a>
-        <a href="#" className="nav-link">
-          JS Documentation
-        </a>
-        <a href="#" className="nav-link">
-          JS Documentation
-        </a>
-        <a href="#" className="nav-link">
-          JS Documentation
-        </a>
-        <a href="#" className="nav-link">
-          JS Documentation
-        </a>
-        <a href="#" className="nav-link">
-          JS Documentation
-        </a>
-        <a href="#" className="nav-link">
-          JS Documentation
-        </a>
-        <a href="#" className="nav-link">
-          JS Documentation
-        </a>
-        <a href="#" className="nav-link">
-          JS Documentation
-        </a>
+        <ul>
+          <li>
+            <a href="#Introduction" className="nav-link">
+              Introduction
+            </a>
+          </li>
+          <li>
+            <a href="#What_you_should_already_know" className="nav-link">
+              What you should already know
+            </a>
+          </li>
+          <li>
+            <a href="#Hello_World" className="nav-link">
+              Hello World
+            </a>
+          </li>
+          <li>
+            <a href="#Variables" className="nav-link">
+              Variables
+            </a>
+          </li>
+          <li>
+            <a href="#" className="nav-link">
+              JS Documentation
+            </a>
+          </li>
+          <li>
+            <a href="#" className="nav-link">
+              JS Documentation
+            </a>
+          </li>
+          <li>
+            <a href="#" className="nav-link">
+              JS Documentation
+            </a>
+          </li>
+          <li>
+            <a href="#" className="nav-link">
+              JS Documentation
+            </a>
+          </li>
+          <li>
+            <a href="#" className="nav-link">
+              JS Documentation
+            </a>
+          </li>
+          <li>
+            <a href="#" className="nav-link">
+              JS Documentation
+            </a>
+          </li>
+          <li>
+            <a href="#" className="nav-link">
+              JS Documentation
+            </a>
+          </li>
+          <li>
+            <a href="#" className="nav-link">
+              JS Documentation
+            </a>
+          </li>
+        </ul>
       </nav>
       <div className="content">
         <Section headerTitle="Introduction">
