@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import TributePage from "./pages/TributePage";
 import SurveyFormPage from "./pages/SurveyFormPage";
 import DocumentationPage from "./pages/DocumentationPage";
+import ShoppingPage from "./pages/ShoppingPage";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/tribute" exact component={TributePage} />
         <Route path="/survey" exact component={SurveyFormPage} />
         <Route path="/documentation" exact component={DocumentationPage} />
+        <Route path="/shop" exact component={ShoppingPage} />
       </Switch>
     </BrowserRouter>
   );
