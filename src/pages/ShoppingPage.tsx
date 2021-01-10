@@ -29,7 +29,40 @@ const ShoppingPage = () => {
             <button type="submit"> Get Started</button>
           </form>
         </section>
-        <section></section>
+        <section>
+          <div id="features">
+            <div id="feature-info">
+              <img></img>
+              <div>
+                <h3>Premium Materials</h3>
+                <p>
+                  Our trombones use the shiniest brass which is sourced locally.
+                  This will increase the longevity of your purchase
+                </p>
+              </div>
+            </div>
+            <div id="feature-info">
+              <img></img>
+              <div>
+                <h3>Premium Materials</h3>
+                <p>
+                  Our trombones use the shiniest brass which is sourced locally.
+                  This will increase the longevity of your purchase
+                </p>
+              </div>
+            </div>
+            <div id="feature-info">
+              <img></img>
+              <div>
+                <h3>Premium Materials</h3>
+                <p>
+                  Our trombones use the shiniest brass which is sourced locally.
+                  This will increase the longevity of your purchase
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
       <footer> Footer</footer>
     </div>
