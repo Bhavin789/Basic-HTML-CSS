@@ -63,8 +63,37 @@ const ShoppingPage = () => {
             </div>
           </div>
         </section>
+        <section>
+          <div id="products">
+            <div id="product-card">
+              <div id="product-header">TENOR TROMBONE</div>
+              <span id="product-price"> $600</span>
+              <p>Lorem ipsum</p>
+              <button id="product-select"> Select</button>
+            </div>
+            <div id="product-card">
+              <div id="product-header">BASS TROMBONE</div>
+              <span id="product-price"> $600</span>
+              <p>Lorem ipsum</p>
+              <button id="product-select"> Select</button>
+            </div>
+            <div id="product-card">
+              <div id="product-header">VALVE TROMBONE</div>
+              <span id="product-price"> $600</span>
+              <p>Lorem ipsum</p>
+              <button id="product-select"> Select</button>
+            </div>
+          </div>
+        </section>
       </div>
-      <footer> Footer</footer>
+      <footer>
+        <ul>
+          <li>Privacy</li>
+          <li>Terms</li>
+          <li>Conduct</li>
+        </ul>
+        <span className="copyright">Copyright 2016, Original Trombones</span>
+      </footer>
     </div>
   );
 };
