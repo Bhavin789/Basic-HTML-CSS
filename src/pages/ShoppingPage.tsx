@@ -6,11 +6,13 @@ const ShoppingPage = () => {
   return (
     <div id="main-shop">
       <header id="header">
-        <img
-          src="https://s3.amazonaws.com/freecodecamp/original_trombones.png"
-          alt="Company Logo"
-          id="header-logo"
-        ></img>
+        <div>
+          <img
+            src="https://s3.amazonaws.com/freecodecamp/original_trombones.png"
+            alt="Company Logo"
+            id="header-logo"
+          ></img>
+        </div>
         <nav id="nav-bar">
           <ul>
             <li className="nav-link">
@@ -25,7 +27,7 @@ const ShoppingPage = () => {
           </ul>
         </nav>
       </header>
-      <div>
+      <div id="content-shop">
         <section>
           <h3>Handcrafted, home-made masterpieces</h3>
           <form id="form">

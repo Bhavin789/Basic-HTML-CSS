@@ -1,16 +1,36 @@
 #main-shop {
   background-color: #f7f7f7;
+  position: relative;
 }
 
 #header {
-  background-color: red;
   padding: 20px 40px;
+  display: flex;
+  background-color: #f7f7f7;
+  justify-content: space-between;
+  position: fixed;
+}
+
+#nav-bar ul {
+  display: flex;
 }
 
 #header-logo {
   width: 400px;
+  height: 50px;
 }
 
 #nav-bar li {
+  margin-left: 5em;
   list-style: none;
+  text-decoration: none;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: #130e0e;
+}
+
+#content-shop {
+  text-align: center;
 }
