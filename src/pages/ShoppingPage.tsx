@@ -1,19 +1,27 @@
 import React from "react";
 
-import Section from "../components/Section";
-
-import "../css/documentation.css";
+import "../css/shopping.css";
 
 const ShoppingPage = () => {
   return (
-    <div id="main-doc">
+    <div id="main-shop">
       <header id="header">
-        <img id="header-logo"></img>
+        <img
+          src="https://s3.amazonaws.com/freecodecamp/original_trombones.png"
+          alt="Company Logo"
+          id="header-logo"
+        ></img>
         <nav id="nav-bar">
           <ul>
-            <li className="nav-link">Features</li>
-            <li className="nav-link">How it Works?</li>
-            <li className="nav-link">Pricing</li>
+            <li className="nav-link">
+              <a href="#features-sec">Features</a>
+            </li>
+            <li className="nav-link">
+              <a href="#features-sec">How it Works?</a>
+            </li>
+            <li className="nav-link">
+              <a href="#pricing">Pricing</a>
+            </li>
           </ul>
         </nav>
       </header>
@@ -29,7 +37,7 @@ const ShoppingPage = () => {
             <button type="submit"> Get Started</button>
           </form>
         </section>
-        <section>
+        <section id="features-sec">
           <div id="features">
             <div id="feature-info">
               <img></img>
@@ -63,7 +71,7 @@ const ShoppingPage = () => {
             </div>
           </div>
         </section>
-        <section>
+        <section id="pricing">
           <div id="products">
             <div id="product-card">
               <div id="product-header">TENOR TROMBONE</div>

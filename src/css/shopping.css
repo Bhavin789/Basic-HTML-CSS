@@ -1,0 +1,16 @@
+#main-shop {
+  background-color: #f7f7f7;
+}
+
+#header {
+  background-color: red;
+  padding: 20px 40px;
+}
+
+#header-logo {
+  width: 400px;
+}
+
+#nav-bar li {
+  list-style: none;
+}
