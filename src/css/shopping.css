@@ -3,7 +3,7 @@
   position: relative;
 }
 
-#img-logo {
+.img-logo {
   width: 60vw;
 }
 
@@ -11,12 +11,15 @@
   padding: 20px 40px;
   display: flex;
   background-color: #f7f7f7;
-  justify-content: space-between;
+  justify-content: space-around;
   position: fixed;
+  top: 0;
 }
 
 #nav-bar ul {
   display: flex;
+  width: 32vw;
+  justify-content: space-around;
 }
 
 #header-logo {
@@ -25,7 +28,6 @@
 }
 
 #nav-bar li {
-  margin-left: 3em;
   list-style: none;
   text-decoration: none;
 }
@@ -37,4 +39,5 @@
 
 #content-shop {
   text-align: center;
+  margin-top: 5.8em;
 }
