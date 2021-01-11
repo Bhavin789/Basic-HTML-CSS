@@ -6,7 +6,7 @@ const ShoppingPage = () => {
   return (
     <div id="main-shop">
       <header id="header">
-        <div>
+        <div className="img-logo">
           <img
             src="https://s3.amazonaws.com/freecodecamp/original_trombones.png"
             alt="Company Logo"
