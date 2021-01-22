@@ -10,6 +10,7 @@
 #header {
   padding: 20px 40px;
   display: flex;
+  flex-direction: row;
   background-color: #f7f7f7;
   justify-content: space-around;
   position: fixed;
@@ -19,6 +20,7 @@
 #nav-bar ul {
   display: flex;
   width: 32vw;
+  flex-direction: row;
   justify-content: space-around;
 }
 
@@ -40,4 +42,27 @@
 #content-shop {
   text-align: center;
   margin-top: 5.8em;
+}
+
+#shop-email-input {
+  display: flex;
+  flex-direction: column;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+@media (max-width: 750px) {
+  #header {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #nav-bar ul {
+    flex-direction: column;
+    text-align: center;
+  }
 }

@@ -28,7 +28,7 @@ const ShoppingPage = () => {
         </nav>
       </header>
       <div id="content-shop">
-        <section>
+        <section id="shop-email-input">
           <h3>Handcrafted, home-made masterpieces</h3>
           <form id="form">
             <input
