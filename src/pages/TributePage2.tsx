@@ -7,25 +7,38 @@ const TributePage = () => {
       <h1 id="title">Dr. Norman Borlaug</h1>
       <span>The man who saved a billion lives</span>
       <div id="image-div">
-        <image id="img"></image>
-        <span id="img-caption">
+        <img
+          id="img"
+          src="https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg"
+          alt="Dr. Norman Borlaug image"
+        />
+        <div id="img-caption">
           Dr. Norman Borlaug, third from the left, trains biologists in Mexico
           on how to increase wheat yields - part of his life-long war on hunger.
-        </span>
+        </div>
       </div>
-      <div className="tribute-info">
+      <div id="tribute-info">
         <h3>Here's a time line of Dr. Borlaug's life:</h3>
-        <section>
-          <ul>
-            <li>1914 - Born in Cresco, Iowa</li>
+        <section id="details">
+          <ul id="list-tribute-2">
             <li>
-              1914 - Finishes university and takes a job in the US Forestry
-              Service
+              <strong>1914</strong> - Born in Cresco, Iowa
+            </li>
+            <li>
+              <strong>1914</strong> - Finishes university and takes a job in the
+              US Forestry Service
             </li>
           </ul>
-          "Borlaug's life and achievement are testimony to the far-reaching
-          contribution that one man's towering intellect, persistence and
-          scientific vision can make to human peace and progress."
+          <br />
+          <i>
+            {" "}
+            "Borlaug's life and achievement are testimony to the far-reaching
+            contribution that one man's towering intellect, persistence and
+            scientific vision can make to human peace and progress."{" "}
+          </i>
+          <br />
+          <br />
+          <i>-- Indian Prime Minister Manmohan Singh</i>
         </section>
         <section>
           <h3>

@@ -1,3 +1,29 @@
 #main {
   text-align: center;
+  background-color: #eee;
+  padding: 0 8px;
+  line-height: 1.5;
+}
+
+#image-div {
+  background-color: white;
+}
+
+#details {
+  width: 40%;
+  text-align: left;
+  margin: auto;
+}
+
+#img {
+  width: 80%;
+  height: auto;
+}
+
+#list-tribute-2 {
+  display: inline;
+}
+
+#img-div {
+  padding: 8px 2em;
 }
