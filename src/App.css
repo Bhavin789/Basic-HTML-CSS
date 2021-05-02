@@ -45,8 +45,8 @@ h1 {
 #image {
   max-width: 100%;
   height: auto;
-  margin: auto;
-  display: block;
+  /* margin: auto;
+  display: block; */
 }
 
 ul.tribute {
